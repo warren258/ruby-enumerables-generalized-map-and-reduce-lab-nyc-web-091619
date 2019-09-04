@@ -1,4 +1,4 @@
- def map(sourarray)
+ def map(source_array)
   new = []
   i = 0
   while i < array.length do
