@@ -9,7 +9,7 @@
    return new
 end
 
-def reduce(source_array, starting_point)
+def reduce(source_array, starting_point = 0)
   i = 0 
    total =  starting_point
   while i < source_array.length do
