@@ -9,5 +9,4 @@ def map(source_array)
    return new
 end
 
-map(source_array) do {|r|new.push( source_array[i] * -1 )} 
-end 
+map(source_array) {|r|new.push( source_array[i] * -1 )} 
