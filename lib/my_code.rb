@@ -1,12 +1,12 @@
- def map(source_array)
+ def map(array)
   new = []
   i = 0
-  while i < source_array.length do
-    #new.push( source_array[i] * -1 ) 
-    yield source_array[i]
+  while i < array.length do
+    #new.push( array[i] * -1 ) 
+    yield array[i]
     i += 1
   end
    return new
 end
 
-map {|r|new.push( r * -1 )}
+map(array) {|r|new.push( r * -1 )}
