@@ -9,4 +9,4 @@
    return new
 end
 
-map(array)  {| r | source_array. r * -1 )}
+#map(array)  {| r | source_array. r * -1 )}
