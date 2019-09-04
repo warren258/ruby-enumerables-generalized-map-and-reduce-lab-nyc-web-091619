@@ -8,5 +8,5 @@
    return new
 end
 
-map(array) do  {| r | new.push( r * -1 )}
-end
+#map(array) do  {| r | new.push( r * -1 )}
+#end
