@@ -9,7 +9,7 @@
    return new
 end
 
-def reduce
+def reduce()
   i = 0 
    starting_point = 0
   while i < source_array.length do
