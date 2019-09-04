@@ -9,4 +9,4 @@
    return new
 end
 
-map(source_array) {|r|new.push( source_array[i] * -1 )
+map {|r|new.push( source_array[i] * -1 )
