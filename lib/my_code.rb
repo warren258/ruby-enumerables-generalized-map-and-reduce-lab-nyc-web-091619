@@ -8,5 +8,4 @@
    return new
 end
 
-map do  | r | new.push( r * -1 )
-end
+#map do  | r | new.push( r * -1 ) end
