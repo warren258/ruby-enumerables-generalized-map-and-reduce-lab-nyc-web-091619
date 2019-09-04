@@ -9,4 +9,4 @@ def map(source_array)
    new
 end
 
-map(source_array) do |act| {new.push( source_array[i] * -1 )}
+map(source_array) do {new.push( source_array[i] * -1 )}
