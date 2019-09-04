@@ -1,4 +1,4 @@
-} def map(source_array)
+ def map(source_array)
   new = []
   i = 0
   while i < source_array.length do
@@ -9,4 +9,4 @@
    return new
 end
 
-map {|r|new.push( source_array[i] * -1 )
+map {|r|new.push( source_array[i] * -1 )}
