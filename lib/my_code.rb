@@ -7,3 +7,5 @@ def map(source_array)
   end
   return new
 end
+
+map {}
