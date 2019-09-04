@@ -9,5 +9,5 @@
    return new
 end
 
-#map(array) do  {| r | new.push( r * -1 )}
+#map(array) do  {| r | new. r * -1 )}
 #end
