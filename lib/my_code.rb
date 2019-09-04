@@ -3,10 +3,10 @@
   i = 0
   while i < source_array.length do
     #new.push( source_array[i] * -1 ) 
-    yield
+    yield 
     i += 1
   end
    return new
 end
 
-map {|r|new.push( source_array[i] * -1 )}
+map {|r|new.push( r * -1 )}
