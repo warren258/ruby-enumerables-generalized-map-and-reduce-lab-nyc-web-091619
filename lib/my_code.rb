@@ -9,9 +9,9 @@
    return new
 end
 
-def reduce(source_array, starting_point = 0)
+def reduce
   i = 0 
-   total =  starting_point
+   starting_point = 0
   while i < source_array.length do
      total = total + source_array[i]
      yield total
