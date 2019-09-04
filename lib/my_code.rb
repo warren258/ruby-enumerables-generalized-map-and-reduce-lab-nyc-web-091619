@@ -9,5 +9,5 @@
    return new
 end
 
-map do  | r |new.push( r * -1 )
+map() do  | r |new.push( r * -1 )
 end
