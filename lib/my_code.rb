@@ -13,6 +13,7 @@ end
   if start_point
     num1 = start_point
     i = 0 
+  else 
     
   end 
 end
