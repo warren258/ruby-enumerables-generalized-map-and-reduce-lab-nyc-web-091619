@@ -9,9 +9,9 @@
    return new
 end
 
- def reduce(array, start_point = nil)
-  if start_point
-    sum = start_point
+ def reduce(array, sp = nil)
+  if sp
+    sum = sp
     i = 0 
   else 
     sum = array[0]
