@@ -17,5 +17,5 @@ end
     num1 = source_array[0]
     i = 1 
   end 
-  while i < 
+  while i < source_array
 end
