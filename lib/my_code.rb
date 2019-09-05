@@ -10,5 +10,6 @@
 end
 
  def reduce(source_array, start_point = nil)
-  if 
+  if start_point
+    num = 
   end
