@@ -9,7 +9,7 @@
    return new
 end
 
- def reduce_to_any_true(source_array)
+ def reduce(source_array, start_point = nil)
   i = 0 
   while i < source_array.length do 
     if source_array[i] == true 
