@@ -9,17 +9,17 @@
    return new
 end
 
- def reduce(source_array, start_point = nil)
+ def reduce(array, start_point = nil)
   if start_point
-    num1 = start_point
+    sum = start_point
     i = 0 
   else 
-    num1 = source_array[0]
+    sum = array[0]
     i = 1 
   end 
-  while i < source_array.length 
-    num1 = yield (num1, source_array[i])
+  while i < array.length 
+    sum = yield (sum, array[i])
     i += 1
   end
-  num1
+  sum
 end
