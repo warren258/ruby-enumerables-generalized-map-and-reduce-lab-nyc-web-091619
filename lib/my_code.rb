@@ -18,7 +18,7 @@ end
     i = 1 
   end 
   while i < source_array.length do 
-    yield (nu1)
+    yield (num1, )
   end
   
 end
