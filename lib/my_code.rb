@@ -11,5 +11,5 @@ end
 
  def reduce(source_array, start_point = nil)
   if start_point
-    num = 
+    num = start_point
   end
