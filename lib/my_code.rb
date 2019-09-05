@@ -19,6 +19,7 @@ end
   end 
   while i < source_array.length do 
     num1 = yield (num1, source_array[i])
+    i += 1
   end
-  
+  num1
 end
