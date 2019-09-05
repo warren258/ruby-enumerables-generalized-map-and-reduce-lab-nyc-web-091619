@@ -14,6 +14,6 @@ end
     num1 = start_point
     i = 0 
   else 
-    
+    num1 = 
   end 
 end
