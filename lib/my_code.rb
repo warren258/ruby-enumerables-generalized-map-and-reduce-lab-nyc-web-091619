@@ -14,6 +14,7 @@ end
     num1 = start_point
     i = 0 
   else 
-    num1 = 
+    num1 = source_array[0]
+    
   end 
 end
