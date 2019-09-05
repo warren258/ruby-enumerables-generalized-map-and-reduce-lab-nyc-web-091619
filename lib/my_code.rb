@@ -12,5 +12,7 @@ end
  def reduce(source_array, start_point = nil)
   if start_point
     num1 = start_point
+    i = 0 
+    
   end 
 end
