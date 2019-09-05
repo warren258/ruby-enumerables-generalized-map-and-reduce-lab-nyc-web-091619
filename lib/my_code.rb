@@ -18,8 +18,7 @@ end
     i = 1 
   end 
   while i < source_array.length do 
-    yield (num1, source_array[i])
-    
+    num1 = yield (num1, source_array[i])
   end
   
 end
